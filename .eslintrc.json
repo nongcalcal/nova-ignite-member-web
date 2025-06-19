@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "semi": ["error", "always"],
+    "@typescript-eslint/unbound-method": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "no-template-curly-in-string": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off"
+      }
+    }
+  ]
+}

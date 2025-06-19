@@ -1,0 +1,72 @@
+{
+  "name": "nova-ignite-member-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.1",
+    "@mui/material": "^7.1.1",
+    "@mui/x-date-pickers": "^8.5.2",
+    "@tanstack/react-query": "^5.80.7",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "dayjs": "^1.11.13",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "vite-plugin-font": "^5.1.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --max-warnings=0",
+    "lint:all": "eslint --fix --max-warnings=0 --cache --ext .ts,.tsx"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint-config-prettier": "^10.1.5",
+    "vite": "^6.3.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx, json, css, scss, md}": [
+      "prettier --write"
+    ]
+  }
+}
