@@ -56,10 +56,12 @@ const LoginPage = () => {
   // Add onSubmit handler
   const onSubmit = async (data: any) => {
     try {
+      // eslint-disable-next-line no-console
       console.log("Login data:", data);
       // Add your login logic here
       // Example: await loginUser(data);
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.error("Login error:", error);
     }
   };
