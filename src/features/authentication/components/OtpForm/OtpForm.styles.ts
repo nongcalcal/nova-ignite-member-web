@@ -1,0 +1,52 @@
+export const otpFormStyles = {
+  cardHeader: {
+    mt: 2,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    "& .MuiCardHeader-content": {
+      textAlign: "center",
+      width: "100%",
+      display: "flex",
+      justifyContent: "center",
+    },
+  },
+  loginTitle: {
+    fontFamily: "Ausgen, sans-serif",
+    fontWeight: 700,
+    fontSize: "1.375rem",
+    lineHeight: "28px",
+    letterSpacing: "0px",
+    textAlign: "center",
+  },
+  buttonText: {
+    fontFamily: "Ausgen, sans-serif",
+    fontWeight: 500,
+    fontSize: "14px",
+    lineHeight: "20px",
+    letterSpacing: "0.1px",
+    textAlign: "center",
+    verticalAlign: "middle",
+  },
+  submitButton: {
+    minWidth: 120,
+    height: 40,
+    borderRadius: "16px !important",
+  },
+  otpInputBox: {
+    width: 42,
+    height: 42,
+    fontSize: 24,
+    fontWeight: 400,
+    color: "#534341",
+    textAlign: "center" as const,
+    borderRadius: "4px",
+    outline: "none",
+    background: "#fff",
+    transition: "border 0.2s",
+    border: "1px solid #857371",
+  },
+  otpInputBoxError: {
+    border: "1px solid #BA1A1A",
+  },
+} as const;
